@@ -1,0 +1,251 @@
+
+/* ** */
+/* BASIC SETUP */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    font-size:62.5%;
+    scroll-behavior: smooth;
+}
+body{
+        
+        text-rendering: optimizeLegibility;
+        line-height: 1.3;
+        font-size: 1.6rem;
+}
+ul li{
+    list-style-type: none;
+    
+}
+.row{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+
+section{
+    min-height: 100vh;
+    padding:0 9%;
+    padding-top: 7.5rem;
+    padding-bottom: 2rem;
+}
+
+
+.btn{
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1rem;
+    padding:.8rem 3rem;
+    border-radius: 5rem;
+    background:#2500f9;
+    font-size: 1.7rem;
+    color:#fff;
+    cursor: pointer;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    transition: all .3s linear;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    background: yellow;
+}
+
+
+.btn.btn1:hover {
+    background: yellow;
+    color: black;
+    text-transform: capitalize;
+}
+.btn-vdo {
+    margin: 1rem;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+.btn-vdo:hover {
+    text-transform: uppercase;
+    color: blue;
+}
+
+h1 {
+    font-size: 5rem;
+    
+}
+
+header{
+    position: fixed;
+    top:0; left:0;
+    width:100%;
+    background:#fff;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    padding:2rem 9%;
+    display: flex;
+    align-items: center;
+   
+    z-index: 1000;
+}
+header .logo{
+    font-size: 2rem;
+    
+}
+header .navbar a{
+    font-size: 1.7rem;
+    text-decoration: none;
+    margin-left: 2rem;
+    
+}
+header .navbar{
+
+    display: inline-block;
+    
+    padding: 0 20rem;
+    text-transform: capitalize;
+
+}
+header.active:active {
+    color: green;
+}
+
+.home{
+    background: url(img/backshadow.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+
+
+    
+
+.navbar a:hover{
+        color: red;
+}
+
+.navbar .faq{
+    text-transform: uppercase;
+}
+
+.home span {
+    border: 1px solid #e2eaed;
+    background: #e2eaed;
+    border-radius: 5rem;
+    padding: .1rem;
+}
+
+.home .content {
+    
+    margin: 3rem;
+    position: relative;
+    top: 10rem;
+
+}
+
+.home .image img {
+    width: 25vw;
+    animation: float 3s linear infinite;
+}
+
+
+/* ###### TRUSTED COMPANIES ####### */
+.Trusted-companies{
+    
+    position: relative;
+    top: 10rem;
+}
+
+.Trusted-companies p{
+    text-align: center;
+    color: #5a627c;
+}
+.Trust-companies {
+    padding: 2rem 20rem;
+}
+    
+.Trust-companies img{
+    padding: 1rem;
+    width: 13rem;
+}
+
+/* ###### key features section starts ####### */
+.key-feature{
+    margin-top: 10rem;
+}
+
+.key-feature h2 {
+    font-size: 4rem;
+    width: 25rem;
+    color: #242f51;
+}
+.key-feature h4{
+    font-size: 2rem;
+}
+
+.key-feature .mobile2  {
+    background: url(img/mobile2back.png);
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+    width: 30vw;
+    animation: float 3s linear infinite;
+}
+.features-action {
+    position: relative;
+    top: 5rem;
+    width: 100rem;
+}
+.feature-text {
+    width: 35rem;
+    margin-top: 1rem;
+}
+
+.key-feature .feature-logo1 {
+    width: 6rem;
+    border: 1rem solid #f2d5d5;
+    border-radius: 50%;
+    float:left;
+    position: relative;
+    top: 2rem;
+
+
+}
+.key-feature .feature-logo2 {
+    width: 6rem;
+    border: 1rem solid #bdbde3;
+    border-radius: 50%;
+    float:left;
+    position: relative;
+    top: 2rem;
+
+}
+.key-feature .feature-logo3 {
+    width: 6rem;
+    border: 1rem solid #c9e5d3;
+    border-radius: 50%;
+    float:left;
+    position: relative;
+    top: 2rem;
+}
+.feature1 {
+    padding: 0 10rem;
+    width: 40rem;
+    margin: 2rem;
+
+}
+.fast-performance{
+    color: #f40b0b;
+}
+.prototyping-h4{
+    color: #007cff;
+}
+.vector-editing{
+    color: #2ea80c;
+}
+
+
+
+/* ###### key features section ends ####### */
+
