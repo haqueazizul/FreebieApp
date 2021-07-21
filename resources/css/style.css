@@ -26,7 +26,9 @@ ul li{
     max-width: 114rem;
     margin: 0 auto;
 }
-
+.box {
+    padding: 3%;
+}
 
 section{
     min-height: 100vh;
@@ -42,12 +44,14 @@ section{
     margin-top: 1rem;
     padding:.8rem 3rem;
     border-radius: 5rem;
-    background:#2500f9;
+    background:#103f44;
     font-size: 1.7rem;
     color:#fff;
     cursor: pointer;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     transition: all .3s linear;
+
+    background-image: linear-gradient(to right,red,yellow);
 }
 
 .btn:hover{
@@ -56,7 +60,7 @@ section{
 }
 
 
-.btn.btn1:hover {
+.btn1:hover {
     background: yellow;
     color: black;
     text-transform: capitalize;
@@ -98,6 +102,7 @@ header .navbar a{
     margin-left: 2rem;
     
 }
+
 header .navbar{
 
     display: inline-block;
@@ -105,9 +110,6 @@ header .navbar{
     padding: 0 20rem;
     text-transform: capitalize;
 
-}
-header.active:active {
-    color: green;
 }
 
 .home{
@@ -159,8 +161,10 @@ header.active:active {
 .Trusted-companies p{
     text-align: center;
     color: #5a627c;
+    height: 1rem;
 }
 .Trust-companies {
+    margin-top: 1rem;
     padding: 2rem 20rem;
 }
     
@@ -201,33 +205,40 @@ header.active:active {
     width: 35rem;
     margin-top: 1rem;
 }
-
-.key-feature .feature-logo1 {
-    width: 6rem;
-    border: 1rem solid #f2d5d5;
-    border-radius: 50%;
-    float:left;
-    position: relative;
-    top: 2rem;
-
-
+.features-txt1 {
+    margin-top: 1rem;
 }
-.key-feature .feature-logo2 {
-    width: 6rem;
-    border: 1rem solid #bdbde3;
-    border-radius: 50%;
-    float:left;
+#feature-logos {
+    width: 5rem;
+    height: auto;
     position: relative;
-    top: 2rem;
-
+    top: 1rem;
+    left: 1rem;
 }
-.key-feature .feature-logo3 {
-    width: 6rem;
-    border: 1rem solid #c9e5d3;
-    border-radius: 50%;
-    float:left;
+.feature-fill1 {
+    width: 7rem;
+    height: 7rem;
+    background: #f2d6d6;
+    
     position: relative;
-    top: 2rem;
+    top: 10rem;
+    border-radius: 50%;
+}
+.feature-fill2 {
+    width: 7rem;
+    height: 7rem;
+    background: #f2d6d6;
+    position: relative;
+    top: 10rem;
+    border-radius: 50%;
+}
+.feature-fill3 {
+    width: 7rem;
+    height: 7rem;
+    background: #f2d6d6;
+    position: relative;
+    top: 10rem;
+    border-radius: 50%;
 }
 .feature1 {
     padding: 0 10rem;
@@ -248,4 +259,280 @@ header.active:active {
 
 
 /* ###### key features section ends ####### */
+
+
+
+/* ###### smart-jackpots section starts ####### */
+
+.jackpot-text {
+    font-size: 3rem;
+    width: 30rem;
+    margin-left: 10rem;
+    color: #242f51;
+}
+
+.jackpot-text::after {
+    content: "";
+    display: block;
+    height: 10rem;
+    background: #999;
+    width: .1rem;
+    float: right;
+    position: relative;
+    left: 10rem;
+    bottom: 7rem;
+}
+
+.riseof-device {
+    width: 35rem;
+    color: #616368;
+    margin-top: 2rem;
+}
+.smart-text-icons {
+    margin-left: 10rem;
+}
+
+.webdesign {
+    width: 85px;
+    height: 85px;
+    background: #ffecef;
+    border-radius: 50%;
+}
+.webdesign img{
+      margin-left: 1.5rem;
+      margin-top: 1.5rem;
+}
+.smart-txt1 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #e11d1d;
+}
+.payouts {
+    width: 20rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.network {
+    width: 85px;
+    height: 85px;
+    background: #e1e1f6;
+    border-radius: 50%;
+}
+.network img{
+      margin-left: 1.5rem;
+      margin-top: 1.5rem;
+}
+.smart-text2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #1d4ee1;
+}
+
+
+.badge {
+    width: 85px;
+    height: 85px;
+    background: #e4ffee;
+    border-radius: 50%;
+}
+.badge img{
+      margin-left: 1.5rem;
+      margin-top: 1.5rem;
+}
+.smart-text3 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    color: #1de132;
+}
+
+/* ###### code-integration section starts ####### */
+
+section.code-integration{
+     position: relative;
+     top: 6rem;
+}
+.codeimage {
+    width: 50rem;
+}
+.content {
+    position: relative;
+    top: 10rem;
+}
+.code-integration h4{
+    width: 26rem;
+    color: #242f51;
+    font-size: 3rem;
+}
+
+.code-integration p{
+    margin-top: 2rem;
+    width: 35rem;
+
+}
+
+.btnL.btn.btn1 {
+    position: relative;
+    top: 1rem;
+}
+
+/* ###### choosing-reason section starts ####### */
+
+.choose-content {
+    text-align: center;
+    width: 52rem;
+    position: relative;
+    left: 30rem;
+    top: 10rem;
+}
+.choosing-reason h1 {
+    font-size: 3.6rem;
+    width: 40rem;
+    position: relative;
+    left: 6rem;
+    color: #242f51;
+}
+.choosing-reason p{
+    color: #505d77;
+    margin-top: 1rem;
+
+}
+
+.choose-content::after{
+    content: "";
+    display: block;
+    height: .1rem;
+    background: #999;
+    width: 8rem ;
+    margin: auto;
+    margin-top: 2rem;
+    } 
+
+.col.span_1_of_3.box {
+    width: 31.26%;
+}
+#all-reason {
+    margin-top: 10rem;
+    width: 80%;
+    text-align: center;
+    margin-left: 13rem;
+    margin-top: 15rem;
+}
+#all-reason h5{
+    font-size: 1.5rem;
+    color:#21214d;
+}
+#choose-logos{
+    height: 4.5rem;
+    width: 4.5rem;
+    position: relative;
+    top: 1rem;
+}
+.choose-logo {
+    background: red;
+    height: 7rem;
+    width: 7rem;
+    text-align: center;
+    position: relative;
+    left: 8rem;
+    border-radius: 50%;
+    bottom: 2rem;
+}
+.choose-logo.fill1{
+    background:#b7b7d9; 
+}
+.choose-logo.fill2{
+    background:#d9b7b7; 
+}
+.choose-logo.fill3{
+    background:#bad9b7; 
+}
+.choose-logo.fill4{
+    background:#d9b7cd;
+}
+.choose-logo.fill5{
+    background:#abeacc; 
+}
+.choose-logo.fill6{
+    background:#c8b7d9; 
+}
+
+
+/* ###### built feature section starts ####### */
+.built-feature{
+    height: 140vh;
+}
+
+.built-feature .built-heading h1 {
+    width: 35rem;
+    margin-left: 1.5rem;
+    font-size: 4rem;
+}
+.built-feature .built-heading p {
+    width: 32rem;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+}
+
+
+
+
+.span-contents {
+    margin-top: 5rem;
+}
+.col.span_1_of_2.box {
+    width: 25rem;
+}
+#feature-Mobile1 {
+    background: url(img/builtBackground.png);
+    position: relative;
+    top: -7rem;
+    width: 75%;
+}
+#feature-Mobile2 {
+    position: relative;
+    top: -66rem;
+    left: 20rem;
+    width: 77%;
+}
+#seeall-btn {
+    position: relative;
+    top: -78rem;
+    left: 3rem;
+}
+
+.choose-logos.fill1{
+    background: #ecdfba;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+.choose-logos.fill3 {
+    background: #e8bfbf;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}.choose-logos.fill5 {
+    background: #c1eec1;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}.choose-logos.fill6 {
+    background: #d3d3f2;
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+}
+#choose-logos1 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.built-feature h5 {
+    
+    margin-top: 2rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* ###### built feature section ends ####### */
 
